@@ -7,7 +7,7 @@ int main(){
   scanf(" %c", &ch);
   while(ch=='y')
 {
-  //input coeeeficients
+  //input coefficients
   printf("Enter 3 intergers\n");
   scanf("%lf%lf%lf", &a, &b, &c );
   //to check if inputs are valid
@@ -25,9 +25,10 @@ int main(){
   }
   else if (d<0)
   {
-    printf("The roots are imaginary\n");
+    printf("The roots is %.2lf + i%.2lf\n", a, b);
+    printf("The roots is %.2lf - i%.2lf\n", a, b);
   }
-  else (d==0);
+  else
   {
     root1=-b/2*a;
     root2=-b/2*a;
