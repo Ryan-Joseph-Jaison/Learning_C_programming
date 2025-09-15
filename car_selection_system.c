@@ -111,7 +111,7 @@ int main() {
     }
 
     // Model selection menu
-    printf("\n--- CAR MODEL OPTIONS ---\n");
+    printf("CAR MODEL OPTIONS\n");
     printf("1. Basic Model (+Rs. %d)\n", model_prices[manufacturer_choice-1][0]);
     printf("2. Advanced Model (+Rs. %d)\n", model_prices[manufacturer_choice-1][1]);
     printf("Select model type (1-2): ");
@@ -125,7 +125,7 @@ int main() {
     }
 
     // Color selection menu
-    printf("\n--- COLOR OPTIONS ---\n");
+    printf("COLOR OPTIONS\n");
     printf("1. Standard Color (+Rs. %d)\n", color_prices[manufacturer_choice-1][0]);
     printf("2. Metallic Color (+Rs. %d)\n", color_prices[manufacturer_choice-1][1]);
     printf("Select color type (1-2): ");
@@ -139,7 +139,7 @@ int main() {
     }
 
     // Display total price
-    printf("    YOUR CAR CONFIGURATION\n"); 
+    printf("YOUR CAR CONFIGURATION\n"); 
     // Display manufacturer name
     switch(manufacturer_choice) {
         case 1: printf("Manufacturer: Maruti Suzuki\n"); break;
